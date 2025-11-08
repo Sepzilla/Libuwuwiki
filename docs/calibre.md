@@ -5,16 +5,14 @@ Calibre is a powerful and easy-to-use e-book manager that lets you organize, con
 ## 🔐 Access Instructions
 
 ### Web Interface (Calibre Content Server)
-- **URL**: `http://[SERVER-IP]:8083`
-- **Default Port**: 8083
-- **Authentication**: Optional (configured during setup)
+- **URL**: `https://books.libuwutawians.org`
+- **Authentication**: Pangolin
 
 ### Desktop Application
 - Install Calibre desktop application on your computer
-- Connect to server library via network share or sync
+- Connect to server library
 - Full editing and management capabilities
-
-### Mobile Access
+### Mobile App
 - Access via web browser on mobile devices
 - Use Calibre Companion app (Android) for enhanced features
 - Download books for offline reading in your preferred e-reader app
@@ -130,13 +128,6 @@ Calibre is a powerful and easy-to-use e-book manager that lets you organize, con
 - Convert to AZW3 or MOBI for Kindle devices
 - Use EPUB for maximum compatibility
 - Keep PDF only for fixed-layout books
-
-### Server Configuration
-- Enable user accounts for multi-user access
-- Use authentication for remote access security
-- Configure allowed formats for downloading
-- Set up automatic backup of library database
-
 ### Performance Tips
 - Store library on fast storage (SSD preferred)
 - Enable metadata backup in preferences
@@ -217,7 +208,7 @@ Calibre is a powerful and easy-to-use e-book manager that lets you organize, con
 - **Any OPDS-compatible reader**
 
 ### OPDS Catalog Access
-- URL: `http://[SERVER-IP]:8083/opds`
+- URL: `https://books.libuwutawians.org/opds`
 - Use in compatible e-reader apps
 - Browse and download directly to device
 - Maintains library organization
