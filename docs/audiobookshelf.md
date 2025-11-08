@@ -5,21 +5,12 @@ Audiobookshelf is a self-hosted audiobook and podcast server designed for organi
 ## 🔐 Access Instructions
 
 ### Web Access
-- **URL**: `http://[SERVER-IP]:13378`
-- **Default Port**: 13378
-- **Authentication**: Local user accounts
-
-### Initial Setup
-1. Navigate to Audiobookshelf web interface
-2. On first launch, create the root/admin account
-3. Set up your first library (audiobooks or podcasts)
-4. Point to the directory where your audiobooks are stored
-5. Let the initial scan complete
-
+- **URL**: `audiobooks.libuwutawians.org`
+- **Authentication**: TODO
 ### Mobile Apps
 - **iOS**: Available on the App Store
 - **Android**: Available on Google Play Store
-- Enter server URL: `http://[SERVER-IP]:13378`
+- Enter server URL: `audiobooks.libuwutawians.org`
 - Sign in with your credentials
 - Enable offline downloads for listening on the go
 
@@ -44,12 +35,6 @@ Audiobookshelf is a self-hosted audiobook and podcast server designed for organi
 - **Episode Management**: Mark as played/unplayed, queue management
 - **Custom Schedules**: Set download schedules for each podcast
 - **Search**: Browse and add podcasts from iTunes directory
-
-### User Management
-- **Multiple Users**: Unlimited user accounts
-- **Individual Progress**: Each user maintains their own listening history
-- **Permissions**: Control library access per user
-- **Statistics**: Track listening time and book completion
 
 ### Mobile Features
 - **Offline Downloads**: Download books for offline listening
@@ -114,12 +99,6 @@ Audiobookshelf is a self-hosted audiobook and podcast server designed for organi
 - Enable mobile data streaming in settings (optional)
 - Use sleep timer for bedtime listening
 - Configure auto-delete for finished books to save space
-
-### Server Configuration
-- Enable HTTPS for secure remote access
-- Set up regular backups of the database
-- Configure authentication timeout for security
-- Use reverse proxy for subdomain access
 
 ### Library Management
 - Separate libraries for audiobooks and podcasts
