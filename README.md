@@ -1,6 +1,6 @@
-# Libuwuwiki - Homelab Wiki
+# SaaS-on-Wheels Wiki
 
-Welcome to the Libuwuwiki! This wiki provides documentation for all services running in the homelab.
+Welcome to the SaaS-on-Wheels! This wiki provides documentation for all services availble to you.
 
 ## 📚 Available Services
 
@@ -21,18 +21,27 @@ Welcome to the Libuwuwiki! This wiki provides documentation for all services run
 
 ## 🚀 Quick Start
 
-1. Choose a service from the list above
-2. Click on the service name to view its documentation
-3. Follow the access instructions and feature guides
+Users can sign in to the SaaS-on-Wheels Server using:
 
-## 📖 About This Homelab
+- **Pangolin**: A modern authentication provider for seamless access management
+- **Authentik**: An open-source Identity Provider for enterprise-grade authentication
 
-This homelab provides a self-hosted ecosystem for media streaming, e-book management, and service organization. All services are containerized and accessible through the local network.
+All users are pre-authorized, ensuring secure access to the services they need.
+Every available service will be listed on the homepage in Pangolin which you can access with one click.
+
+**BUT I CAN'T SIGN IN!!**
+	No worries, in most cases you can just make an account with that particular service. For example, Plex.
+
+
+
+## 📖 About SaaS-on-Wheels
+
+Our homelab provides a self-hosted ecosystem for media streaming, e-book management, and service organization. All services are containerized and accessible wherever you are, via the internet OR even offline in many cases.
 
 ## 🔗 Navigation
 
-Each service documentation includes:
-- Access instructions (URL, credentials, network requirements)
+Each service has documentation of its own:
+- Access instructions
 - Key features and capabilities
 - Basic usage guide
 - Tips and best practices
